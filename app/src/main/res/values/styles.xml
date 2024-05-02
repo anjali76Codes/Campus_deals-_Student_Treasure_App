@@ -1,0 +1,9 @@
+<resources>
+    <!-- Style for the navigation menu items -->
+    <style name="NavigationMenuItem">
+        <item name="android:textSize">16sp</item> <!-- Change font size here -->
+        <item name="android:fontFamily">@font/apptext</item> <!-- Add custom font here -->
+    </style>
+
+    <style name="PopupAnimation">popup</style>
+</resources>

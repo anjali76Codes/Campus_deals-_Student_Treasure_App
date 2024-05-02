@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/teal" /> <!-- You can set your desired button background color here -->
+    <stroke
+        android:width="4dp"
+        android:color="@color/border_color" /> <!-- You can adjust the border width and color here -->
+</shape>

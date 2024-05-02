@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <!-- Existing fragments -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.campus.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_buy"
+            app:destination="@id/nav_buy" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_sell"
+            app:destination="@id/nav_sell" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.campus.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_buy"
+        android:name="com.example.campus.ui.buy.BuyFragment"
+        android:label="@string/menu_buy"
+        tools:layout="@layout/fragment_buy" >
+        <!-- Add action to navigate to chat fragment -->
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_sell"
+        android:name="com.example.campus.ui.sell.SellFragment"
+        android:label="@string/menu_sell"
+        tools:layout="@layout/fragment_sell" />
+
+    <!-- Add FAQ destination -->
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.example.campus.ui.faq.FaqFragment"
+        android:label="FAQ"
+        tools:layout="@layout/fragment_faq" />
+
+</navigation>

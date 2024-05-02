@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "726442977985",
+    "project_id": "studenttreaure",
+    "storage_bucket": "studenttreaure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726442977985:android:a069971703e0cd5b07c240",
+        "android_client_info": {
+          "package_name": "com.example.campus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8VRSIjLC9MirWry6CFxy6-hn6MndoPqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
